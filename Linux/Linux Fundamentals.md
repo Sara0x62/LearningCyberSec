@@ -8,7 +8,7 @@ File descriptor `2` represents standard error. (other special file descriptors i
 `/dev/null` is a special device that discards everything that is written to it.
 
 `ls -lh` to list files in the directory
-![[Pasted image 20240325223658.png]]
+![](../attachments/1c9a51f6966f916a8a558a72791966d5.png)
 
 The first three columns are important in determining characteristics of a file or folder.
 They show which actions are possible and what user or group has the ability for this;
@@ -59,7 +59,7 @@ to push a process away from the foreground we can do  `Ctrl+Z`, to bring it back
 https://crontab-generator.org/
 https://crontab.guru/
 
-![[Pasted image 20240325233058.png]]
+![](../attachments/d52dec6e10dc9d4c5683127387e9810d.png)
 An example where we back up our Documents folder every 12 hours
 `0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/`
 Cron supports wildcards or asterisk (`*`)  for the fields we dont care about

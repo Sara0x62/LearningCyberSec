@@ -1,6 +1,6 @@
 # LAN Topologies
 ### Star Topology
-![[Pasted image 20240326054957.png]]
+![](../attachments/eb2ef5f3ec13aead65573fe9b0f2cce5.png)
 
 | **Pros**                                                                                        | **Cons**                                                                                                |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -9,7 +9,7 @@
 |                                                                                                 | Centralized hardware failure can disrupt network communication, although such devices are often robust. |
 
 ### Bus Topology
-![[Pasted image 20240326062949.png]]
+![](../attachments/3449e7d9f65565cbfbbb57377a695b49.png)
 
 | **Pros**                                       | **Cons**                                                                  |
 | ---------------------------------------------- | ------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@
 | Simple structure resembling a tree's branches. | Difficult troubleshooting due to all data traveling along the same route. |
 |                                                | Little redundancy / Single point of failure along the backbone.           |
 ### Ring Topology (aka. token topology)
-![[Pasted image 20240326064845.png]]
+![](../attachments/56a774e799c73e3c152efe712520668d.png)
 
 | **Pros**                                                                               | **Cons**                                                            |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -26,22 +26,22 @@
 | Less prone to bottlenecks (compared to bus topology).                                  |                                                                     |
 
 ### What is a Switch?
-![[2504bf9d718556c764c28843f43febe0.png]]
+![](../attachments/4db9d3761307a6ca715311cb7b4071a1.png)
 Switches are network devices that aggregate multiple devices like computers and printers using Ethernet. They're common in larger networks connecting numerous devices via ports of various sizes. Switches efficiently manage network traffic by directing packets only to the intended recipient, unlike hubs or repeaters.
 They enhance network redundancy's by allowing connection to routers, ensuring uninterrupted connectivity in case of path failure, albeit potentially impacting performance slightly.
 
 ### What is a router?
-![[e83d39192c6a3e8168f842d9a680a7c3.png]]
+![](../attachments/13c811e2557326efb065029adaa76a4a.png)
 Routers connect networks and facilitate data transfer between them through routing. Routing is the process of guiding data across networks by establishing paths for successful delivery, particularly beneficial when multiple paths exists between connected devices.
 
 # Subnetting
 Networks vary in size and structure, with subnetting allowing the division of a network into smaller segments.
 Similar to slicing a cake, subnetting allocates portions of the network to different departments, such as Accounting, Finance, and Human Resources in a business setting.
-![[dfdda87fb215cd723555bde32345e05e.png]]
+![](../attachments/ffdd3386620d5c3f07de9d9fe19abf65.png)
 Network administrators employ subnetting to organize and allocate specific network segments, mirroring real-world departmental divisions. 
 
 Subnetting involves dividing the network based on the number of hosts, indicated by a subnet mask.
-![[3e3b2a9eeaf249ce0a7f4dbb46f0bd14.png]]
+![](../attachments/0d8dd866689439dbf0d89cb2f7c8b582.png)
 An IP Address is made of 4 sections called octets, as is a subnet mask.
 They are represented as a number of 4 bytes (32 bits) from 0 to 255.
 
@@ -75,13 +75,13 @@ It works through these 2 types of messages it sends.
     - Acknowledges the ARP request and allows the requesting device to store this information in its cache.
 
 
-![[2107060a6e1df30659654335b878e91a-1.png]]
+![](../attachments/92463c04780bce11114102362d8311d3.png)
 
 # DHCP Protocol
 **DHCP** (**D**ynamic **H**ost **C**onfiguration **P**rotocol) automates the assignment of IP addresses on a network. 
 When a device connects, it sends a *DHCP Discover* request to find DHCP servers. A server responds with a *DHCP Offer*, proposing an IP address. 
 The device confirms with a *DHCP Request*, and upon acknowledgment (*DHCP ACK*) from the server, it begins using the assigned IP address.
-![[0514189b8424bb6493f7b427b40425e2.png]]
+![](../attachments/340f585c3fbfafbe72acc18ddceaf7f6.png)
 
 ---
 [[Study notes/Networks/Networking|Networking]] | [[Security & Tools]]

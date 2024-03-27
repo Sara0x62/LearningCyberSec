@@ -3,7 +3,7 @@
 Is a standardized model consisting of **7 Layers**.
 Used to demonstrate theory behind computer networking.
 
-![[osi.png]]
+![](../attachments/e224945119a0fec7775e89282265110b.png)
 #### OSI:
 - 7. Application
 - 6. Presentation
@@ -35,7 +35,7 @@ When receiving data it also checks to make sure it hasn't been corrupted.
 This is the hardware, it sends electrical pulses that make up the data transfer.
 It also converts the binary data of the transmission data into signals and transmits them across the network as well as receiving incoming signals and converting them back into binary data.
 ### Encapsulation
-![[image.jpeg]]
+![](../attachments/9f360c5ab7736510df54c882e9dbf188.jpeg)
 
 # TCP/IP Model
 ### TCP/IP
@@ -45,7 +45,7 @@ It also converts the binary data of the transmission data into signals and trans
 - Network Interface
 
 ### OSI ~ TCP/IP
-![[Pasted image 20240324175542.png]]
+![](../attachments/6a504fc8b18978bca34dcd6649bb9009.png)
 
 TCP is a *connection-based* protocol, before it's able to send data it must first establish a connection this process is called a **three-way handshake**
 
@@ -53,7 +53,7 @@ TCP is a *connection-based* protocol, before it's able to send data it must firs
 **Syn**: syn bit short for *synchronise*. makes first contact in the connection process.
 **Syn/Ack**: the server response. with a **Syn** bit and an **Ack** bit for *acknowledgement*
 **Ack**: Reply with an *acknowledgement* bit to complete the handshake
-![[image-2.png]]
+![](../attachments/1ac46fddebf26ac5da3b93f09fadcb02.png)
 
 
 # DNS
@@ -61,7 +61,7 @@ TCP is a *connection-based* protocol, before it's able to send data it must firs
 
 When making a request to a website first it will check its local "Hosts File" in case there is an explicit mapping set Otherwise your computer will send a request to a recursive DNS server.
 
-![[a168c8511887fff98a6944619c4b5259.png]]
+![](../attachments/472fbd46336412ef689297637a703891.png)
 
 ***recursive* DNS** server.
 if the requested domain is not popular (and thus not cached) it will pass this on to a *root name server*.
@@ -115,7 +115,7 @@ The most common ones are
 - **TXT Record** : are free text fields for any text-based data, common uses can be to list servers that have to authority to send email on behalf of said domain (helps with spam/spoofed emails) also used to verify ownership of the domain when signing up for third-party services
 
 #### Making a request
-![[f93ecbb21877cd18fda5b54070087c2b.svg]]
+![](../attachments/e23be12c7ca128527f523a159a597ff3.svg)
 1. When requesting a domain name, first your computer checks its local cache, if not there a request to a Recursive DNS Server is made.
 2. A Recursive DNS server, has a local cache of recently looked up domains, if its found locally this is sent back (common ex; Google, Facebook, Twitter). These are commonly provided by your ISP. If the domain is not found locally it sends it to the Root DNS Server
 3. The Root servers act as a backbone, their job is to redirect to the correct Top-Level Domain server (eg `.com`)

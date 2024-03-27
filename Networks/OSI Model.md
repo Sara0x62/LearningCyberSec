@@ -5,7 +5,7 @@ The OSI model is made up of 7 layers, each with their own set of responsibilitie
 
 At each layer data passes through, various processes occur, and additional information is appended. This phenomenon is called **encapsulation**
 
-![[osi.png]]
+![](../attachments/e224945119a0fec7775e89282265110b.png)
 
 # Layer 7 - Application
 The **application layer** of the OSI model *facilitates user interaction* with data through protocols and rules. 

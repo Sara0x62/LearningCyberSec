@@ -36,7 +36,7 @@ Our cat, Gado, has been kidnapped. The kidnapper has sent us a document with the
 When creating a text file, the OS saves **metadata** such as: file creation date, last modified, etc.
 We will use the software `pdfinfo` to read some of the metadata here:
 (this can be installed on Kali under `sudo apt install poppler-utils` )
-![[Pasted image 20240327072439.png]]
+![](../attachments/31774b9961234c20c7c33b2ed586b032.png)
 
 ### Photo EXIF Data
 **EXIF** (**Ex**changeable **I**mage **F**ile Format) is a standard for saving image metadata.
@@ -50,9 +50,9 @@ we'll be using `exiftool` here (install through `sudo apt install libimage-exift
 to read the embedded metadata.
 
 (important information caught in `grep` as there is A LOT otherwise)
-![[Pasted image 20240327073329.png]]
+![](../attachments/347f96bb5b7efbdd87104dbbebd259ed.png)
 
 (replacing `deg` with `°` and stripping spaces)
-![[Pasted image 20240327073703.png]]
+![](../attachments/f5de51f037bd04516eac39c4a53e0a77.png)
 And the Camera it was taken with:
-![[Pasted image 20240327073923.png]]
+![](../attachments/a8dcee63f84e17adb0dc0fd36ac4d1c0.png)

@@ -14,7 +14,7 @@ Software examples:
 # Methodology
 Breaking into a target network is usually done in these seven steps.
 
-![[821ff7df89367ba6d12cbdacd669027a-1.png]]
+![](../attachments/497e19d5c12d901fc84816bad392f1a3.png)
 1. **Recon**: Attacker gathers information about the target, including servers, operating system, IP addresses, and user details.
 2. **Weaponization**: Malicious components are prepared for remote access.
 3. **Delivery**: Malware is delivered to the target via email or USB flash drive.
@@ -45,7 +45,7 @@ Dig allows us to manually query recursive DNS servers of our choice for informat
 ###### Syntax:
 `dig <domain> @<dns-server-ip>`
 
-Example output:![[dig-demo.png]]
+Example output:![](../attachments/c81b50e9a4e8348af14db5c958eb56c5.png)
 this send 1 query, received 1 answer.
 157 here it the TTL or Time To Live (in seconds)- this is how long it takes for our computer to stop considering it valid and removing it from the cache.
 

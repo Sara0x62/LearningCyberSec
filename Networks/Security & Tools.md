@@ -45,7 +45,9 @@ Dig allows us to manually query recursive DNS servers of our choice for informat
 ###### Syntax:
 `dig <domain> @<dns-server-ip>`
 
-Example output:![](../attachments/c81b50e9a4e8348af14db5c958eb56c5.png)
+Example output:
+
+![](../attachments/c81b50e9a4e8348af14db5c958eb56c5.png)
 this send 1 query, received 1 answer.
 157 here it the TTL or Time To Live (in seconds)- this is how long it takes for our computer to stop considering it valid and removing it from the cache.
 

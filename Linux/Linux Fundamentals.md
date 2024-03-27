@@ -8,6 +8,7 @@ File descriptor `2` represents standard error. (other special file descriptors i
 `/dev/null` is a special device that discards everything that is written to it.
 
 `ls -lh` to list files in the directory
+
 ![](../attachments/1c9a51f6966f916a8a558a72791966d5.png)
 
 The first three columns are important in determining characteristics of a file or folder.

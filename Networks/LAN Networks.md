@@ -1,6 +1,6 @@
 # LAN Topologies
 ### Star Topology
-![](../attachments/eb2ef5f3ec13aead65573fe9b0f2cce5.png)
+![](../attachments/84df7f4dbabf0a3ef61c549b01977f45.png)
 
 | **Pros**                                                                                        | **Cons**                                                                                                |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -9,7 +9,7 @@
 |                                                                                                 | Centralized hardware failure can disrupt network communication, although such devices are often robust. |
 
 ### Bus Topology
-![](../attachments/3449e7d9f65565cbfbbb57377a695b49.png)
+![](../attachments/0f9ab56f57529d60894df6a47ff75129.jpg)
 
 | **Pros**                                       | **Cons**                                                                  |
 | ---------------------------------------------- | ------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@
 | Simple structure resembling a tree's branches. | Difficult troubleshooting due to all data traveling along the same route. |
 |                                                | Little redundancy / Single point of failure along the backbone.           |
 ### Ring Topology (aka. token topology)
-![](../attachments/56a774e799c73e3c152efe712520668d.png)
+![](../attachments/b87d14bf432930fa692cf3fde7c10e32.jpg)
 
 | **Pros**                                                                               | **Cons**                                                            |
 | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |

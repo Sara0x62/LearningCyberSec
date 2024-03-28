@@ -9,6 +9,6 @@ I will clean up the not-showing images and some of the links being broken eventu
 # Linux
 
 # Networking
-[Packets & Frames](/Networks/Packets %26 Frames.md)
+[Packets & Frames](https://github.com/Sara0x62/LearningCyberSec/blob/main/Networks/Packets%20%26%20Frames.md)
 
 # Tools

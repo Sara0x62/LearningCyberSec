@@ -62,6 +62,7 @@ with every transfer the sender's ISN is increased by one (`Ack = x + 1`)
 ## Closing a connection:
 TCP closes a connection once a device confirms that the other device received all data. Closing connections promptly is advisable due to resource reservation.
 The closure process starts with sending a "**FIN**" packet, which requires acknowledgment from the other device
+
 ![](../attachments/2ebb5338a50a7fe7823fbe688510f18f.png)
 
 # UDP/IP
@@ -106,6 +107,8 @@ While some protocols have standard ports, those between *0 and 1024* are conside
 | **H**yper**T**ext **T**ransfer **P**rotocol **S**ecure (**HTTPS**) | 443             | This protocol does the exact same as above; however, securely using encryption.                                                                            |
 | **S**erver **M**essage **B**lock (**SMB**)                         | 445             | This protocol is similar to the File Transfer Protocol (FTP); however, as well as files, SMB allows you to share devices like printers.                    |
 | **R**emote **D**esktop **P**rotocol (**RDP**)                      | 3389            | This protocol is a secure means of logging in to a system using a visual desktop interface (as opposed to the text-based limitations of the SSH protocol). |
+
+
 [See here for a list of the first 1024 ports](http://www.vmaxx.net/techinfo/ports.htm)
 
 These protocols adhere strictly to standards, though applications can operate on non-standard ports (e.g., running a web server on port 8080 instead of the standard 80). However, applications assume standard ports by default, requiring a colon( **:** )followed by the port number for non-standard configurations.

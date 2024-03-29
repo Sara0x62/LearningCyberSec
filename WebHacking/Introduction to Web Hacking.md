@@ -65,6 +65,8 @@ The format of **S3 buckets** is http(s)://{name}.s3.amazonaws.com, where {name} 
 **Using ffuf:**
 `ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt -u http://10.10.255.165/FUZZ`
 
+![](../attachments/caa2330fccfcabd7e0b466999e47e541.png)
+
 **Using dirb:**
 `dirb http://10.10.255.165/ /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt`
 

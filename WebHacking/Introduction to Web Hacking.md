@@ -72,3 +72,6 @@ The format of **S3 buckets** is http(s)://{name}.s3.amazonaws.com, where {name} 
 
 **Using Gobuster:**
 `gobuster dir --url http://10.10.255.165/ -w /usr/share/wordlists/seclists/Discovery/Web-Content/common.txt`
+
+
+---
